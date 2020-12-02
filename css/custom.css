@@ -1,0 +1,652 @@
+.null{
+}
+
+a:link, a:visited {
+	text-decoration: none
+	}
+a:hover {
+	text-decoration: underline; 
+	color: white
+	}
+a:active {
+	text-decoration: none
+	}
+
+.logo{
+	height: 70px;
+	width: 160px;
+	margin: 3px 5px;
+}
+.icon{
+	height: 80px;
+	width: 80px;
+	margin: 10px -2px -5px -2px;
+	padding: -5px -5px;
+}
+.perf{
+	height: 100px;
+	width: 80px;
+	margin: 2px 0px -27px -10px;
+	padding-bottom: -20px;
+}
+
+
+//botões do index
+.cont1{
+	text-align: center;
+}
+
+.cont2{
+	text-align: center;
+}
+
+
+.tperf{
+	position: absolute;
+	top: 88.5%;
+	left: 46%;
+	transform: translate(-50%, -50%);
+
+}
+
+hr {
+	border: 0;
+	width: 100%;
+	color: #9e9e9e;
+	background-color: #9e9e9e;
+	height: 7px;
+	margin: 0px;
+}
+
+
+.lca{
+	background-color: #FFFFFF;
+	width: 65%;
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 15px;
+}
+
+.lcal{
+	background-color: #ffffff;
+	display: inline-block;
+	border: 0px;
+	text-align: left;
+	width: 49.75%;
+	padding: 5% 5%;
+	left: 0%;
+	border-radius: 15px;
+}
+
+.lcar{
+	background-color: #ffffff;
+	display: inline-block;
+	border: 0px;
+	text-align: center;
+	width: 49.75%;
+	padding: 5% 5%;
+	right: 0%;
+	border-radius: 15px;
+}
+
+.btnimg{
+	width: 150px;
+	height: auto;
+	border: 1px solid #9e9e9e;
+	border-radius: 15px;
+	cursor: pointer;
+	margin: -10px 0px;
+}
+
+.lcabtn{
+	position: relative;
+	left: -27%;
+	cursor: pointer;
+	border: 0px;
+	font-size: 180%;
+	margin: -10px 0px;
+	background-color: transparent;
+}
+
+.btnx{
+	cursor: pointer;
+	background-color: Transparent;
+	border: 0px;
+	font-size: 125%;
+}
+
+.mimg{
+	width: 60%;
+	height: auto;
+}
+
+ul.end li{
+	display: inline-block;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+/* espaço para conteúdo no index */
+#div_home {
+	width: 100%;
+	height: 100%;
+	float: right;
+	padding: 3%;
+}	
+
+/* espaço para conteúdo na escolha de atributos */
+#div_atributos{
+	background-color: white;
+	width: 100%;
+	max-height: 810px;
+	background: #f7f7f7;
+	opacity:0.9;
+
+}
+
+/* espaço para conteúdo no Arquivo Goblin */
+#div_lore {
+	width: 100%;
+	height: 800px;
+	background: #f7f7f7;
+	opacity:0.70;
+	float: left;
+	overflow: visible;
+	//*background-image: url('../images/Extra/druidahome.png');
+	background-repeat: no-repeat;
+	background-size: 220px 90%;
+	background-position:bottom left;*/
+
+  }
+
+/* espaço para conteúdo no perfil */
+ #div_fichas {
+	width: 100%;
+	min-height: 600px;
+	background: #b0bec5 ;
+	opacity:1;
+	float: left;
+	overflow: visible;
+
+  }
+  
+/* espaço para conteúdo no ficha_pronta */
+#ficha_pronta{
+	background-color: white;
+	opacity: 0.8;
+	height: auto;
+	width: 100%;
+	
+}
+
+/* divs de textos */
+#texto00{
+	font-family: arial;
+	font-size: 15px;
+}
+#texto0 {
+	font-family:  Franklin Gothic Heavy, sans-serif;
+	font-size:100%;
+	color: gray;
+}
+
+#texto1 {
+	font-family:  Saira Stencil One Regular, Helvetica, sans-serif;
+	font-size:250%;
+	color: black;
+	 text-transform: uppercase;
+
+}
+
+#text1 {
+	float: left;
+	text-align: center;
+	max-width: 800px;
+	max-height: 95% ;
+	text-align: justify;
+	padding: 2em;
+	overflow: auto;
+}
+
+#text2 {
+	float: left;
+	text-align: center;
+	max-width: 700px;
+	text-align: justify;
+	padding: 2em;
+}
+
+#texto2 {
+	font-family:  Franklin Gothic Heavy, Archivo Black;
+	font-size:80%;
+	color: #000000  ;
+	padding-left: 1.8em;
+}
+
+#texto3 {
+	font-family:  Saira Stencil One, Helvetica, sans-serif;
+	font-size:220%;
+	color: black;
+	text-transform: uppercase;
+
+}
+
+#Texto4 {
+		font-family: Franklin Gothic Heavy, Archivo Black;
+	color: red;
+}
+
+#Texto5 {
+	font-family: Franklin Gothic Heavy, Archivo Black;
+font-size: 20px;
+	color: white;
+}
+
+#Texto6 {
+		font-family: Franklin Gothic Heavy, Archivo Black;
+font-size: 25px;
+	color: red;
+}
+
+#Texto7 {
+	font-family: Franklin Gothic Heavy, Archivo Black;
+	font-size: 20px;
+	color: white;
+
+}
+#Texto8 {
+	font-family: Franklin Gothic Heavy, Archivo Black;
+	color: white;
+}
+
+
+#Texto9 {
+	font-family: Franklin Gothic Heavy, Archivo Black;
+	font-size: 10px;
+	color: white;
+
+}
+#Texto10 {
+	font-family: Franklin Gothic Heavy, Archivo Black;
+	font-size: 23px;
+	color: red;
+}
+
+#Texto11 {
+	font-family: Franklin Gothic Heavy, Archivo Black;
+	width: 95%;
+	padding: 2em;
+	text-align: justify;
+	
+}
+
+#Texto12 {
+	font-family:  Saira Stencil One, Helvetica, sans-serif;
+	font-size:150%;
+	color: #eceff1 ;
+	 text-transform: uppercase;
+	 text-align: center;
+
+}
+#Texto13 {
+	font-family: Franklin Gothic Heavy, Archivo Black;
+	font-size: 15px;
+	text-align: right;
+	width: 50%;
+	max-height: 400px;
+	align: center;
+	padding-right: 1em;
+	border-right: 2px solid #263238;
+	float: left;
+	overflow: auto;
+}
+
+#int13 {
+	width: 70%;
+	max-height: 400px;
+	float: right;
+	overflow: auto;
+}
+
+#Texto14 {
+	font-family: Franklin Gothic Heavy, Archivo Black;
+	font-size: 15px;
+	width: 40%;
+	text-align: left;
+	max-height: 400px;
+	align: center;
+	padding-left: 1em;
+	float: left;
+}
+#Texto15 {
+	font-family: Franklin Gothic Heavy, Archivo Black;
+	font-size: 30px;
+	color: #607d8b;
+}
+
+#Texto16 {
+		font-family: Franklin Gothic Heavy, Archivo Black;
+font-size: 23px;
+	color: black;
+}
+
+#Texto17 {
+	font-family:  Saira Stencil One, Helvetica, sans-serif;
+	font-size:120%;
+	color: red ;
+	 text-transform: uppercase;
+	 text-align: center;
+
+}
+#Texto18 {
+	font-family:  Saira Stencil One, Helvetica, sans-serif;
+	font-size:200%;
+	color: black;
+	 text-transform: uppercase;
+	 text-align: center;
+
+}
+#Texto19 {
+	margin-top: 1em;
+	font-family:  Calistoga;
+	font-size: 22px;
+	color: white;
+	padding-left: 2em;
+}
+
+/* informações de personagem em atributos.php */
+.dadosP {
+background-color: #607d8b;
+height: 100%;
+width: 34%;
+text-align: left;
+float: left;
+padding-top: 1em;
+/* Para exibir nos outros navegadores como Chrome, safari, opera*/
+-webkit-border-radius: 2%;   
+font-family: Franklin Gothic Heavy;
+font-size: 100%;
+overflow: auto;
+}
+	
+/* barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #F4F4F4;
+}
+::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+}
+
+
+/* retângulo por trás de atrib1, atrib2 e dadosP */
+#atrib0{
+background-color: #607d8b;
+width: 100%;
+height: auto;
+-moz-border-radius: 2%;
+-webkit-box-shadow: 0px 0px 8px 3px #000000;
+-moz-box-shadow: 0px 0px 8px 3px #000000;
+box-shadow: 0px 0px 8px 3px #000000;
+overflow: auto;
+
+}
+
+/* coluna 1 de atributos */
+#atrib1 {
+text-align: center;
+width: 30%;
+height:	600px;
+padding: 1em;
+overflow: auto;
+float: left;
+margin-right: 1%;
+margin-left: 1%;
+border-left: 2px dashed #263238;
+}
+
+
+/* coluna 2 de atributos */
+#atrib2 {
+text-align: center;
+width: 30%;
+height:	600px;
+padding: 1em;
+overflow: auto;
+margin-right: 1%;
+margin-left: 1%;
+border-left: 2px dashed #263238;
+
+}
+
+/* retângulo de escolha de itens */
+#form_itens {
+	background-color: #78909c ;
+	width: 100%;
+	height: auto;
+	-webkit-box-shadow: 0px 0px 8px 3px #000000;
+	-moz-box-shadow: 0px 0px 8px 3px #000000;
+	box-shadow: 0px 0px 8px 3px #000000;
+	margin-top: 5px;
+	text-align: center;
+}
+
+/* aviso sobre os modificadores */
+#avisoP{
+	background-color: #607d8b;
+	width: 100%;	
+	-webkit-box-shadow: 0px 0px 8px 3px #000000;
+	-moz-box-shadow: 0px 0px 8px 3px #000000;
+	box-shadow: 0px 0px 8px 3px #000000;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+/* Informações do personagem */
+#InfoP {
+	background-color:#607d8b;
+	height: auto;
+	border-bottom: 2px solid #263238;
+	overflow: auto;
+}
+
+/* retângulos de fichas feitas no perfil */
+#ListaF {
+	background-color: #455a64 ;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+
+
+}
+
+/* container na criação de fichas */
+.container_fichas{
+	background-color:white;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	opacity: 0.85;
+	text-align: center;
+	overflow: auto;
+
+}
+
+/*  */
+.container_atributos{
+	background-color: white;
+	width: 100%;
+	height: 120vh;
+	position: relative;
+	opacity: 0.80;
+	text-align: center;
+	
+}
+
+/* container de botões do Arquivo Goblin */
+.container_master{
+	float: right;
+	padding-right: 2em;
+}
+
+/* posição 1 de botões no Arquivo Goblin */
+.container_classe1{
+	position: relative;
+
+	text-align: center;
+}
+
+/* posição 2 de botões no Arquivo Goblin */
+.container_classe2{
+	position: relative;
+	padding-left: 5em;
+	text-align: center;
+}
+
+/* posição 3 de botões no Arquivo Goblin */
+.container_classe3{
+	position: relative;
+	text-align: center;
+}
+
+/* posição 4 de botões no Arquivo Goblin */
+.container_classe4{
+	position: relative;
+	padding-left: 5em;
+	text-align: center;
+
+}
+
+/* div de cadastro  */
+.cadastro{
+	background-color: #FFFFFF;
+	width: 100%;
+	height: auto;
+	padding: 5% 5%;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+#total{
+	color: white;
+}
+#forca{
+	color: white;
+}
+#destreza{
+	color: white;
+}
+#inteligencia{
+	color: white;
+}
+#carisma{
+	color: white;
+}
+#sabedoria{
+	color: white;
+}
+#constituicao{
+	color: white;
+}
+#extra{
+	color: red;
+}
+
+/* botões de subtração na escolha de atributos */
+.menos {
+	background-image: url("../images/Buttons/menos1.png");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 30px;
+	height: 30px;
+}
+
+/* botões de adição na escolha de atributos  */
+.mais {
+	background-image: url("../images/Buttons/mais1.png");
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+/* botões de prosseguir na criação de fichas */
+#butEnv{
+background-image: url("../images/Buttons/Prosseguir.png");
+width: 150px;
+height: 40px;
+border-radius: 10px;
+}
+
+/* botão de resetar nos atributos */
+#butRes{
+width: 100px;
+height: 30px;
+border-radius: 10px;
+font-size: 20px;
+font-family: Times;
+
+}
+
+/* botão de finalizar e gerar na criação de fichas */
+#butPro{
+background-image: url("../images/Buttons/Pronto.png");
+width: 150px;
+height: 40px;
+border-radius: 10px;
+margin-top: 5em;
+
+}
+
+/* botão para finalizar, gerar e salvar fichas na criação de fichas (apenas após de login) */
+#butGer{
+background-image: url("../images/Buttons/Gerar.png");
+width: 150px;
+height: 40px;
+border-radius: 10px;
+}
+
+/* botão de gerar pdf no perfil */
+#butPer{
+background-image: url("../images/Buttons/gerarpdf.png");
+width: 250px;
+height: 60px;
+border-radius: 10px;
+margin-left: 3em;
+}
+
+/* div select  */
+#itemselect{
+	font-family: Franklin Gothic Heavy, Archivo Black;
+	color: #fafafa ;
+	font-size: 20px;
+	text-align: justify;
+}
+
+/* formulário de login */
+#formulario {
+	width: 60%;
+	min-width: 320px;
+}
+
+::-webkit-input-placeholder  { color:#455a64 ; }
+input:-moz-placeholder { color:#455a64 ; }
+textarea:-moz-placeholder { color:#455a64 ; }​
