@@ -1983,7 +1983,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `fichas`) VALUES
-(1, 'Seu arrombado', '@eu', '$2y$10$a3lt8TfjjbQeyoEJuGs/b.L5tt0S2M6rebjFuj8/QpbmsbGNwi65O', NULL);
+(1, 'Adm', '@eu', '$2y$10$a3lt8TfjjbQeyoEJuGs/b.L5tt0S2M6rebjFuj8/QpbmsbGNwi65O', NULL);
 
 --
 -- Indexes for dumped tables
